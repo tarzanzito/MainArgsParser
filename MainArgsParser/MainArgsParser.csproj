@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Candal.MainArgumentsParser</RootNamespace>
+    <AssemblyName>MainArgumentsParser</AssemblyName>
+    <Authors>Tarzanzito</Authors>
+    <Company>CandalSoft</Company>
+    <Description>Parse and process main arguments</Description>
+    <AssemblyVersion>1.2.5.0</AssemblyVersion>
+    <FileVersion>1.2.5.0</FileVersion>
+    <Version>1.2.5</Version>
+    <PackageReleaseNotes>
+</PackageReleaseNotes>
+    <PackageIcon>candal_logo.jpg</PackageIcon>
+    <RepositoryUrl>https://github.com/tarzanzito/MainArgsParser</RepositoryUrl>
+    <PackageTags>command line arg argument parm parameter</PackageTags>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageId>CandalSoft.MainArgumentsParser</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>@CandalSoft</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <SignAssembly>false</SignAssembly>
+    <PackageProjectUrl>https://github.com/tarzanzito/MainArgsParser</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CommandLinePwshParser.cs~RF12ed062.TMP" />
+    <None Remove="TextTemplate1.xcs" />
+    <None Include="../logo/tarzanzito_logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainArgsParser", "MainArgsParser\MainArgsParser.csproj", "{55A6530E-7C1E-432E-851F-62AD2AED82F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{144548DE-85E4-46CF-92B2-82EA3A9FF1ED}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainArgsParserExamples", "MainArgsParserExamples\MainArgsParserExamples.csproj", "{B8CF272B-8C91-4D0C-83FE-C461609834B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55A6530E-7C1E-432E-851F-62AD2AED82F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A6530E-7C1E-432E-851F-62AD2AED82F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A6530E-7C1E-432E-851F-62AD2AED82F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A6530E-7C1E-432E-851F-62AD2AED82F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CF272B-8C91-4D0C-83FE-C461609834B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CF272B-8C91-4D0C-83FE-C461609834B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CF272B-8C91-4D0C-83FE-C461609834B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CF272B-8C91-4D0C-83FE-C461609834B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59A3CE75-87B5-4454-A971-84BADE0310F7}
+	EndGlobalSection
+EndGlobal

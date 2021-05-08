@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+Parser and Process application arguments
 
 ## Getting Started
 
@@ -8,29 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+C# 2.0 or higher
 
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+None
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 

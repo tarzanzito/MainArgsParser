@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Candal</RootNamespace>
+    <Version>1.2.5</Version>
+    <Authors>Tarzanzito</Authors>
+    <Company>CandalSoft</Company>
+    <Product />
+    <AssemblyVersion>1.2.5.0</AssemblyVersion>
+    <FileVersion>1.2.4.0</FileVersion>
+    <StartupObject>Candal.Program</StartupObject>
+    <PackageId>CandalSoft.MainArgsParserExamples</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+<!--
+<PublishTrimmed>true</PublishTrimmed>
+<PublishReadyToRun>true</PublishReadyToRun>
+<PublishSingleFile>true</PublishSingleFile>
+<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+-->
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MainArgsParser\MainArgsParser.csproj" />
+  </ItemGroup>
+
+</Project>
